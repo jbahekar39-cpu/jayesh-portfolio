@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayesh Bahekar | Cybersecurity Portfolio</title>
+    <!-- Fonts: Share Tech Mono & Fira Code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Matrix Animation Background -->
+    <canvas id="matrix-bg"></canvas>
+
+    <div id="app">
+        <header class="cyber-header">
+            <nav class="container">
+                <a href="#" class="logo">
+                    <span class="logo-text">root@jayesh:~#</span><span class="cursor">_</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="hero" class="section hero-section">
+                <div class="container hero-content reveal">
+                    <p class="sys-msg">Access Granted. Welcome to the terminal.</p>
+                    <h1 class="hero-title">Jayesh <span class="highlight">Bahekar</span></h1>
+                    <h2 class="hero-subtitle typewriter">Cybersecurity Enthusiast | Future Ethical Hacker | Digital Security Learner.</h2>
+                    <div class="hero-cta mt-4">
+                        <a href="#about" class="btn btn-primary">Initialize Sequence</a>
+                        <div class="social-icons">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="container reveal">
+                    <div class="section-header">
+                        <h2 class="section-title"><i class="fas fa-user-secret"></i> Whoami</h2>
+                    </div>
+                    <div class="cyber-card about-grid">
+                        <div class="about-text">
+                            <p>
+                                I am <strong class="highlight">Jayesh Bahekar</strong>, a computer science student from Pune, Maharashtra, India, with a strong interest in Cybersecurity, Ethical Hacking, and Digital Forensics.
+                            </p>
+                            <p>
+                                I enjoy learning how systems work, analyzing cyber threats, and understanding how to secure digital environments. I am continuously improving my knowledge in networking, cyber investigation, and security technologies.
+                            </p>
+                            <p>
+                                My goal is to build a professional career in Cybersecurity and Cyber Investigation, helping organizations protect their systems and data from cyber attacks.
+                            </p>
+                        </div>
+                        <div class="about-stats terminal-window">
+                            <div class="terminal-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="terminal-title">status.log</span>
+                            </div>
+                            <div class="terminal-body">
+                                <div><span class="cmd-prompt">~></span> Location: Pune, India</div>
+                                <div><span class="cmd-prompt">~></span> Major: Computer Science</div>
+                                <div><span class="cmd-prompt">~></span> Status: Active Learner</div>
+                                <div><span class="cmd-prompt">~></span> Target: Cyber Threat Mitigation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <div class="container reveal">
+                    <div class="section-header">
+                        <h2 class="section-title"><i class="fas fa-shield-alt"></i> Modules & Payloads</h2>
+                    </div>
+                    
+                    <div class="skills-wrapper">
+                        <!-- Cybersecurity Fundamentals -->
+                        <div class="cyber-card skills-card">
+                            <h3 class="card-title"><i class="fas fa-network-wired"></i> Cybersecurity Fundamentals</h3>
+                            <ul class="hacker-list">
+                                <li>Computer Networking</li>
+                                <li>Firewall Concepts</li>
+                                <li>Digital Forensics Basics</li>
+                                <li>OSINT (Open Source Intelligence)</li>
+                                <li>Log Analysis</li>
+                                <li>IP Addressing and Networking Basics</li>
+                                <li>Problem Solving</li>
+                            </ul>
+                        </div>
+
+                        <!-- Learning & Interests -->
+                        <div class="cyber-card skills-card">
+                            <h3 class="card-title"><i class="fas fa-crosshairs"></i> Learning & Interests</h3>
+                            <ul class="hacker-list">
+                                <li>Ethical Hacking</li>
+                                <li>Cyber Defense</li>
+                                <li>Network Security</li>
+                                <li>Digital Investigation</li>
+                                <li>Cyber Crime Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <div class="container reveal">
+                    <div class="section-header">
+                        <h2 class="section-title"><i class="fas fa-code-branch"></i> Executable Log</h2>
+                    </div>
+                    <div class="projects-grid">
+                        
+                        <!-- Project 1 -->
+                        <div class="cyber-card project-card hover-glitch">
+                            <div class="project-header">
+                                <i class="fas fa-sitemap project-icon"></i>
+                                <div class="project-links">
+                                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Network Security Analysis</h3>
+                            <p class="project-desc">A comprehensive study and simulation of network vulnerabilities, tracing packet flows, and implementing defensive firewall rules to prevent unauthorized intrusion.</p>
+                            <div class="project-tech"><span>Wireshark</span><span>Nmap</span><span>Packet Sniffing</span></div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="cyber-card project-card hover-glitch">
+                            <div class="project-header">
+                                <i class="fas fa-file-alt project-icon"></i>
+                                <div class="project-links">
+                                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Basic Log Analysis</h3>
+                            <p class="project-desc">Parsed and analyzed server access logs to identify suspicious IPs, brute force attempts, and anomalous traffic patterns, automating alerts using simple scripts.</p>
+                            <div class="project-tech"><span>Bash</span><span>Linux</span><span>Regex</span><span>SIEM basics</span></div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="cyber-card project-card hover-glitch">
+                            <div class="project-header">
+                                <i class="fas fa-search project-icon"></i>
+                                <div class="project-links">
+                                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">OSINT Investigation</h3>
+                            <p class="project-desc">Conducted an open-source intelligence gathering exercise to map out public digital footprints of target assets, demonstrating the risks of over-sharing on networks.</p>
+                            <div class="project-tech"><span>Maltego</span><span>Shodan</span><span>Reconnaissance</span></div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="cyber-card project-card hover-glitch">
+                            <div class="project-header">
+                                <i class="fas fa-book-dead project-icon"></i>
+                                <div class="project-links">
+                                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Cybersecurity Notes</h3>
+                            <p class="project-desc">A structured digital repository documenting my journey through Ethical Hacking concepts, CTF write-ups, and daily infosec findings.</p>
+                            <div class="project-tech"><span>Documentation</span><span>CTF</span><span>Markdown</span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="container reveal text-center">
+                    <div class="section-header center-header">
+                        <h2 class="section-title"><i class="fas fa-satellite-dish"></i> Establish Connection</h2>
+                    </div>
+                    <div class="contact-box cyber-card">
+                        <p class="contact-desc">
+                            My firewall is currently configured to accept incoming connections. Whether for collaboration, mentoring, or discussing security concepts, I'm always looking to connect.
+                        </p>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-envelope"></i> jayesh@example.com</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India</li>
+                        </ul>
+                        <a href="mailto:jayesh@example.com" class="btn btn-primary mt-4">Send Packet</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="cyber-footer">
+            <div class="container footer-content text-center">
+                <div class="social-icons mb-2">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p>Designed & Executed by Jayesh Bahekar &copy; 2026</p>
+                <div class="terminal-footer">SYSTEM SECURE // END OF FILE</div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
